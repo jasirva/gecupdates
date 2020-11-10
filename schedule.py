@@ -1,8 +1,8 @@
 import schedule
 
 # bot and chat ids
-bot = <your bot API>
-chat_id = <your chat id>
+bot = 1164343404:AAFWtA6VxjsG6OUNLhEnO9GPpvvNLX-k0Rk
+chat_id = http://t.me/gecupdatesBot
 
 # schedule crawler
 schedule.every().day.at("08:00").do(check_result_send_mess)
