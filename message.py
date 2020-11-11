@@ -7,5 +7,5 @@ def send_message(chat_id, text):
     Returns: None
     '''
     
-    parameters = {‘chat_id’: chat_id, ‘text’: text}
+    parameters = {‘chat_id’: gecupdateBot , ‘text’: text}
     message = requests.post(bot + ‘sendMessage’, data=parameters)
