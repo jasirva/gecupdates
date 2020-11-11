@@ -21,7 +21,7 @@ def check_result_send_mess():
        send_message(chat_id, 'The database could not be accessed')
         
     # crawl the jobs from website
-    jobs_link_pm = crawling(<URL>, <tag id>)
+    jobs_link_pm = crawling('https://ktu.edu.in/eu/core/announcements.htm','b')
     
     # check if there were new jobs added
     for item in jobs_link_pm:
